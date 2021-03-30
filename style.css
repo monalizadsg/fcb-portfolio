@@ -1,8 +1,56 @@
 body {
-  background-color: #fafafa;
+  background-color: #f1f1f1;
 }
 
 #avatar {
   width: 250px;
   border-radius: 50%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #ab88bf;
+}
+
+#landing,
+#gallery {
+  height: 87vh;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tools {
+  padding: 25px;
+  height: 200px;
+  border: 5px solid #ebe9e9;
+  border-radius: 15px;
+  margin: 20px;
+  width: 75%;
+  color: white;
+}
+
+/* Bootstrap override */
+.navbar {
+  background-color: #ab88bf;
+}
+
+.jumbotron {
+  background-color: #ede3f3;
 }
